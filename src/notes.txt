@@ -1,0 +1,7 @@
+component composition:-
+*************************
+- multiple components are combined together to make one single application.
+
+Note:- every component must be created with capital letters.
+              ex:- App.jsx/App.js
+              
