@@ -20,3 +20,46 @@
 // }
 
 // export default App;
+
+// import React, { Component } from 'react'
+// import CBCPropsex1 from './propsexample/CBCPropsex1';
+
+// class App extends Component {
+//     render() {
+//         return (
+//             <div>App
+//                 <hr />
+//                 <CBCPropsex1
+//                 username="Sam"
+//                 age={25}
+//                 desig={{city:"Hyd" , area:"Maisammaguda"}}
+//                 sendFun={function(){alert("hi i m from parent component")}}
+//                 />
+
+//             </div>
+//         )
+//     }
+
+// }
+// export default App;
+
+// ! FBC
+import React from 'react'
+import FBCPropex1 from './propsexample/FBCPropex1';
+
+const App = () => {
+    return (
+        <div>
+            <FBCPropex1
+            username="Tarun"
+            isLoggedIn={false}
+            hobbies={["Roaming" , "Watching movies" , "travel" , "studies"]}
+            />
+
+        </div>
+    )
+
+}
+export default App
+
+
