@@ -44,22 +44,39 @@
 // export default App;
 
 // ! FBC
+// import React from 'react'
+// import FBCPropex1 from './propsexample/FBCPropex1';
+
+// const App = () => {
+//     return (
+//         <div>
+//             <FBCPropex1
+//             username="Tarun"
+//             isLoggedIn={true}
+//             hobbies={["Roaming" , "Watching movies" , "travel" , "studies"]}
+//             />
+
+//         </div>
+//     )
+
+// }
+// export default App
+
+// ! props children example
 import React from 'react'
-import FBCPropex1 from './propsexample/FBCPropex1';
+import PropsChildrenEx from './propsexample/PropsChildrenEx'
+import ChildProps from './propsexample/ChildProps'
 
 const App = () => {
     return (
         <div>
-            <FBCPropex1
-            username="Tarun"
-            isLoggedIn={false}
-            hobbies={["Roaming" , "Watching movies" , "travel" , "studies"]}
-            />
-
+            <PropsChildrenEx username="Tarun" company="Meta">
+                <h1>This data is passed as props children</h1>
+                <ChildProps/>
+            </PropsChildrenEx>
         </div>
     )
-
 }
-export default App
 
+export default App;
 
