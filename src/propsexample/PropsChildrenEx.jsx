@@ -8,9 +8,8 @@ const PropsChildrenEx = (props) => {
         <h1>{props.username}</h1>
         <h1>{props.company}</h1>
         {
-            props.chidren[1]
+          props.children[0]
         }
-        
     </div>
   )  
 }

@@ -63,6 +63,7 @@
 // export default App
 
 // ! props children example
+
 import React from 'react'
 import PropsChildrenEx from './propsexample/PropsChildrenEx'
 import ChildProps from './propsexample/ChildProps'
@@ -70,10 +71,10 @@ import ChildProps from './propsexample/ChildProps'
 const App = () => {
     return (
         <div>
-            <PropsChildrenEx username="Tarun" company="Meta">
-                <h1>This data is passed as props children</h1>
+             <PropsChildrenEx username="Prashanth" company="TCS">
+                <h1>this is app </h1>
                 <ChildProps/>
-            </PropsChildrenEx>
+             </PropsChildrenEx>
         </div>
     )
 }
