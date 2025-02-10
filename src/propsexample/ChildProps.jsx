@@ -1,12 +1,12 @@
-import React from 'react'
+// import React from 'react'
 
-const ChildProps = () => {
-  return (
-    <div>
-        <h1>ChildProps</h1>
+// const ChildProps = () => {
+//   return (
+//     <div>
+//         <h1>ChildProps</h1>
        
-       </div>
-  )
-}
+//        </div>
+//   )
+// }
 
-export default ChildProps;
+// export default ChildProps;

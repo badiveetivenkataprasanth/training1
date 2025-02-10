@@ -4,4 +4,15 @@ component composition:-
 
 Note:- every component must be created with capital letters.
               ex:- App.jsx/App.js
-              
+
+basic hooks are :-              
+1. useState()
+2. useEffect()
+3. useContext()
+4. useRef()
+
+Note:-
+this keyword :- it will target curent object.
+
+2. useEffect():-
+****************
