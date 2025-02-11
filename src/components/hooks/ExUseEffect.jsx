@@ -31,13 +31,18 @@ const ExUseEffect = () => {
     return(
         <div>ExUseEffect
             {
-                users.map((users,i)=>{
+                users.map((user,i)=>{
                     return(
-                        <>
-                        <h1>{users.name}</h1>
-                        <h3>{users.email}</h3>
+                        // <>
+                        // <h1>{users.name}</h1>
+                        // <h3>{users.email}</h3>
                     
-                        </>
+                        // </>
+                        //! OR
+                        <React.Fragment key={i}>
+                            <h1>{user.name}</h1>
+                            <h3>{user.email}</h3>
+                        </React.Fragment>
 
                     )
                 })
