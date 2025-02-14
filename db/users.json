@@ -1,0 +1,22 @@
+{
+    "users":[
+        {
+            "id":"1",
+            "name":"Prashanth",
+            "email":"prasanth@gmail.com",
+            "phone":"9182876354"
+        },
+        {
+            "id":"2",
+            "name":"Shiva Ganesh",
+            "email":"shiva@gmail.com",
+            "phone":"123456789"
+        },
+        {
+            "id":"3",
+            "name":"Hemanth",
+            "email":"artham@gmail.com",
+            "phone":"876547890"
+        }
+    ]
+}

@@ -14,5 +14,7 @@ basic hooks are :-
 Note:-
 this keyword :- it will target curent object.
 
-2. useEffect():-
-****************
+Routing in react:-
+******************
+- routing in react is a third party library used to provide navigation between the two components
+- routing not belongs to react by default, we have

@@ -82,15 +82,18 @@
 // export default App;
 
 import React from 'react';
+import formModule from './formModule.css'
+import MyForm from "./components/MyForm";
 
-import ExUseEffect from "./components/hooks/ExUseEffect";
-
-const App=()=>{
-    return(
+const App=()=> {
+    return (
         <div>
-            {/* <FBCStateEx></FBCStateEx> */}
-            <ExUseEffect></ExUseEffect>
+            <MyForm username="Prashanth" email='bvprasanth2004@gmail.com' password='12345' gender="Male" address='Mainbazar'>
+                <h1>this is app</h1>
+            </MyForm>
         </div>
     )
+
 }
 export default App;
+  
